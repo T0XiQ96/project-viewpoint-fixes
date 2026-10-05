@@ -1,0 +1,11 @@
+name=Bullet Impacts 2D
+id=VFA_BulletImpacts2D
+description=Bullet holes, sparks, dust, splinters and ricochets where bullets hit walls, objects and the ground, in the normal isometric view. Uses the game's own impact point and the material of the hit tile (the same one that picks the impact sound): wood gets dark holes and splinters, metal small holes and sparks, hardened metal only scrapes and ricochets, stone and brick coloured dust. Size depends on the ammo (mod ammo too). Holes on doors and windows vanish when they are opened or broken. Options in Options > Mods > Bullet Impacts 2D. Client side. With Project Viewpoint's 3D view on, it steps aside (Project Viewpoint - Fixes draws 3D impacts).
+author=Very Far Away
+modversion=1.0
+versionMin=42.21
+require=\ZombieBuddy
+javaJarFile=media/java/client/VFABulletImpacts2D.jar
+javaPkgName=vfabi
+ZBVersionMin=2.3.0
+poster=poster.png

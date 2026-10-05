@@ -1,0 +1,11 @@
+name=Project Viewpoint - Item Placement (3D)
+id=ViewpointPlaceItems
+description=Place items on the ground / on furniture in Project Viewpoint's 3D view: preview at the cursor, rotate with R / Shift+R, click to place.
+author=Very Far Away
+modversion=1.0
+versionMin=42.21
+require=\Viewpoint
+loadModAfter=Viewpoint
+javaJarFile=media/java/client/ViewpointPlaceItems.jar
+javaPkgName=vpplace
+ZBVersionMin=2.0.0

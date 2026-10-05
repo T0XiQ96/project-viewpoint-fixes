@@ -1,0 +1,21 @@
+VERSION = 1,
+
+option ViewpointFixes.ZoomHold_Control
+{
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_ZoomHold_Control,
+    valueTranslation = ViewpointFixes_Control,
+}
+
+option ViewpointFixes.ZoomHold_Step
+{
+    type = integer,
+    min = 5,
+    max = 40,
+    default = 15,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_ZoomHold_Step,
+}

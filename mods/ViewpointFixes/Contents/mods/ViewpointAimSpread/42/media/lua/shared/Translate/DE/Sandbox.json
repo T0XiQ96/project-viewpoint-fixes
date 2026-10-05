@@ -1,0 +1,18 @@
+{
+    "Sandbox_ViewpointFixes": "Viewpoint Fixes",
+    "Sandbox_ViewpointFixes_AimSpread_Control": "Streuung im Zielkreis: Wer stellt die Optionen ein",
+    "Sandbox_ViewpointFixes_AimSpread_Control_tooltip": "Spieler wählen selbst: jeder nutzt Optionen > Mods, die Werte darunter gelten nicht. Server-Werte: alle nutzen die Werte darunter; die Einträge unter Optionen > Mods sind ausgegraut oder ausgeblendet. Tastenbelegungen stellt immer jeder selbst ein.",
+    "Sandbox_ViewpointFixes_Control_option1": "Spieler wählen selbst",
+    "Sandbox_ViewpointFixes_Control_option2": "Server-Werte (ausgegraut)",
+    "Sandbox_ViewpointFixes_Control_option3": "Server-Werte (ausgeblendet)",
+    "Sandbox_ViewpointFixes_AimSpread_Spread": "Streuung im Zielkreis: Streuung im Zielkreis des Spiels",
+    "Sandbox_ViewpointFixes_AimSpread_Spread_tooltip": "Jeder Schuss geht an einen zufälligen Punkt im Zielkreis des Spiels. Nur mit „Schusswaffen nutzen Schadenschance“ = Deaktiviert.",
+    "Sandbox_ViewpointFixes_AimSpread_Scale": "Streuung im Zielkreis: Faktor auf die Kreisgröße",
+    "Sandbox_ViewpointFixes_AimSpread_Scale_tooltip": "1 = genau die Klammern, 1,5 = Standard.",
+    "Sandbox_ViewpointFixes_AimSpread_Cover": "Streuung im Zielkreis: Büsche lenken Kugeln ab",
+    "Sandbox_ViewpointFixes_AimSpread_Cover_tooltip": "Büsche halten Kugeln nicht auf, können sie aber ablenken.",
+    "Sandbox_ViewpointFixes_AimSpread_BushChance": "Streuung im Zielkreis: Ablenkchance pro Busch (%)",
+    "Sandbox_ViewpointFixes_AimSpread_BushChance_tooltip": "Chance, dass eine Kugel in einem Busch abgelenkt wird.",
+    "Sandbox_ViewpointFixes_AimSpread_DeflectDeg": "Streuung im Zielkreis: Ablenkwinkel (Grad)",
+    "Sandbox_ViewpointFixes_AimSpread_DeflectDeg_tooltip": "Wie weit eine abgelenkte Kugel seitlich und nach oben/unten abweichen kann."
+}

@@ -1,0 +1,11 @@
+name=Project Viewpoint - 3D Gun Effects, Tracers and Fireflies
+id=ViewpointEffects3D
+description=3D view: the game's own bullet tracers in 3D (yours and other players', colours and speed per ammo type, so weapon mods apply), a bright muzzle flash that lights up the surroundings whenever the game shows its flash, gun smoke that stays at the muzzle in the world (Muzzle Smoke's flat 2D puffs are switched off in 3D), sparks and dust where bullets hit walls and floors, and JB's Fireflies drawn in 3D and hidden behind walls (or switched off in 3D, see mod options). 2D view unchanged.
+author=Very Far Away
+modversion=1.0
+versionMin=42.21
+require=\Viewpoint
+loadModAfter=Viewpoint,MuzzleSmoke,JB_Fireflys,ViewpointTrueBallistics,ViewpointAimSpread,ViewpointVehicleBallistics
+javaJarFile=media/java/client/ViewpointEffects3D.jar
+javaPkgName=vpfx
+ZBVersionMin=2.3.0

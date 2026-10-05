@@ -1,0 +1,11 @@
+name=Project Viewpoint - Aim Spread (True Ballistics add-on)
+id=ViewpointAimSpread
+description=Add-on for Viewpoint True Ballistics. Shots spread inside the game's own aiming circle (the brackets: Aiming skill, steady aim, focus, movement, moodles and other mods all change it), 1.5x its size by default, instead of True Ballistics' own spread. Only with the sandbox option Firearms Use Damage Chance = Disabled; otherwise shots go exactly to the reticle. Bushes do not stop rounds but can deflect them (10 % per bush, up to 10 degrees sideways and up/down); the round flies on and hits whatever is on its new path.
+author=Very Far Away
+modversion=2.0
+versionMin=42.21
+require=\Viewpoint,\ViewpointTrueBallistics
+loadModAfter=Viewpoint,ProjectViewpointADS,ViewpointTrueBallistics
+javaJarFile=media/java/client/ViewpointAimSpread.jar
+javaPkgName=vpspread
+ZBVersionMin=2.3.0

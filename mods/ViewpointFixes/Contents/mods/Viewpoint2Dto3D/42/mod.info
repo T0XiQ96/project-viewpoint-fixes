@@ -1,0 +1,11 @@
+name=Viewpoint 2D to 3D
+id=Viewpoint2Dto3D
+author=majestiKTox
+modversion=0.1
+versionMin=42.21
+versionMax=42.21
+require=\ZombieBuddy,\Viewpoint
+javaJarFile=media/java/client/Viewpoint2Dto3D.jar
+javaPkgName=vfa3d
+poster=poster.png
+description=Compatibility patch for Project Viewpoint. Makes world markers of other mods (key locations, zombie hints, indicators) follow the real 3D camera instead of the old isometric projection, and hides 2D vehicle smoke while the 3D view is active.

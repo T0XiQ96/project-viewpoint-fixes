@@ -1,0 +1,77 @@
+VERSION = 1,
+
+option ViewpointFixes.Reticle_Control
+{
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Reticle_Control,
+    valueTranslation = ViewpointFixes_Control,
+}
+
+option ViewpointFixes.Reticle_Mode
+{
+    type = enum,
+    numValues = 5,
+    default = 1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Reticle_Mode,
+    valueTranslation = ViewpointFixes_Reticle_Mode,
+}
+
+option ViewpointFixes.Reticle_Style
+{
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Reticle_Style,
+    valueTranslation = ViewpointFixes_Reticle_Style,
+}
+
+option ViewpointFixes.Reticle_Size
+{
+    type = integer,
+    min = 1,
+    max = 12,
+    default = 2,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Reticle_Size,
+}
+
+option ViewpointFixes.Reticle_Opacity
+{
+    type = double,
+    min = 0.05,
+    max = 1.0,
+    default = 1.0,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Reticle_Opacity,
+}
+
+option ViewpointFixes.Reticle_Color
+{
+    type = enum,
+    numValues = 6,
+    default = 1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Reticle_Color,
+    valueTranslation = ViewpointFixes_Reticle_Color,
+}
+
+option ViewpointFixes.Reticle_Outline
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Reticle_Outline,
+}
+
+option ViewpointFixes.Reticle_Brackets
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Reticle_Brackets,
+}

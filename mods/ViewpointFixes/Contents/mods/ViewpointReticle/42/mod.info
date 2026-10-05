@@ -1,0 +1,11 @@
+name=Project Viewpoint - Crosshair Options
+id=ViewpointReticle
+description=Options for Viewpoint's centre dot (Options > Mods > Viewpoint Crosshair): when it shows (always, only with a firearm, with any weapon, only while aiming, never), style (dot, cross, ring), size, opacity, colour and outline. The game's aiming brackets in 3D can be switched off too.
+author=Very Far Away
+modversion=1.0
+versionMin=42.21
+require=\Viewpoint
+loadModAfter=Viewpoint,ProjectViewpointADS
+javaJarFile=media/java/client/ViewpointReticle.jar
+javaPkgName=vpret
+ZBVersionMin=2.3.0

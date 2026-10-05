@@ -1,0 +1,475 @@
+VERSION = 1,
+
+option ViewpointFixes.VehicleBallistics_Enabled
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_Enabled,
+}
+
+option ViewpointFixes.VehicleBallistics_In2D
+{
+    type = boolean,
+    default = false,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_In2D,
+}
+
+option ViewpointFixes.VehicleBallistics_HitInfo
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_HitInfo,
+}
+
+option ViewpointFixes.VehicleBallistics_DamageScale
+{
+    type = double,
+    min = 0.1,
+    max = 5.0,
+    default = 1.0,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_DamageScale,
+}
+
+option ViewpointFixes.VehicleBallistics_WindshieldShots
+{
+    type = integer,
+    min = 1,
+    max = 60,
+    default = 15,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_WindshieldShots,
+}
+
+option ViewpointFixes.VehicleBallistics_SideWindowShatter
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 90,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_SideWindowShatter,
+}
+
+option ViewpointFixes.VehicleBallistics_LightBreak
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 100,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_LightBreak,
+}
+
+option ViewpointFixes.VehicleBallistics_TireShotsStrong
+{
+    type = integer,
+    min = 1,
+    max = 10,
+    default = 1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_TireShotsStrong,
+}
+
+option ViewpointFixes.VehicleBallistics_TireShotsMedium
+{
+    type = integer,
+    min = 1,
+    max = 10,
+    default = 2,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_TireShotsMedium,
+}
+
+option ViewpointFixes.VehicleBallistics_TireShotsWeak
+{
+    type = integer,
+    min = 1,
+    max = 10,
+    default = 3,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_TireShotsWeak,
+}
+
+option ViewpointFixes.VehicleBallistics_TireMode
+{
+    type = enum,
+    numValues = 2,
+    default = 1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_TireMode,
+    valueTranslation = ViewpointFixes_VehicleBallistics_TireMode,
+}
+
+option ViewpointFixes.VehicleBallistics_TireLeakSeconds
+{
+    type = integer,
+    min = 1,
+    max = 600,
+    default = 30,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_TireLeakSeconds,
+}
+
+option ViewpointFixes.VehicleBallistics_RunFlat
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_RunFlat,
+}
+
+option ViewpointFixes.VehicleBallistics_BodyDamage
+{
+    type = double,
+    min = 0.0,
+    max = 25.0,
+    default = 3.0,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_BodyDamage,
+}
+
+option ViewpointFixes.VehicleBallistics_EngineDamage
+{
+    type = double,
+    min = 0.0,
+    max = 25.0,
+    default = 2.0,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_EngineDamage,
+}
+
+option ViewpointFixes.VehicleBallistics_FuelLeak
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_FuelLeak,
+}
+
+option ViewpointFixes.VehicleBallistics_Occupants
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_Occupants,
+}
+
+option ViewpointFixes.VehicleBallistics_ArmorWear
+{
+    type = double,
+    min = 0.0,
+    max = 10.0,
+    default = 1.0,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_ArmorWear,
+}
+
+option ViewpointFixes.VehicleBallistics_DriveBy
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_DriveBy,
+}
+
+option ViewpointFixes.VehicleBallistics_DriverCanShoot
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_DriverCanShoot,
+}
+
+option ViewpointFixes.VehicleBallistics_DriveBySpread
+{
+    type = double,
+    min = 0.1,
+    max = 5.0,
+    default = 1.5,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_DriveBySpread,
+}
+
+option ViewpointFixes.VehicleBallistics_DriverSpread
+{
+    type = double,
+    min = 1.0,
+    max = 5.0,
+    default = 2.0,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_DriverSpread,
+}
+
+option ViewpointFixes.VehicleBallistics_OpenableWindows
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_OpenableWindows,
+}
+
+option ViewpointFixes.VehicleBallistics_Penetration
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_Penetration,
+}
+
+option ViewpointFixes.VehicleBallistics_PenetrationZombies
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_PenetrationZombies,
+}
+
+option ViewpointFixes.VehicleBallistics_PenetrationPlayers
+{
+    type = boolean,
+    default = false,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_PenetrationPlayers,
+}
+
+option ViewpointFixes.VehicleBallistics_PenetrationScale
+{
+    type = double,
+    min = 0.1,
+    max = 10.0,
+    default = 1.0,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_PenetrationScale,
+}
+
+option ViewpointFixes.VehicleBallistics_MaxPenetrations
+{
+    type = integer,
+    min = 0,
+    max = 10,
+    default = 3,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_MaxPenetrations,
+}
+
+option ViewpointFixes.VehicleBallistics_EnergyLoss
+{
+    type = integer,
+    min = 0,
+    max = 90,
+    default = 25,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_EnergyLoss,
+}
+
+option ViewpointFixes.VehicleBallistics_DeflectionScale
+{
+    type = double,
+    min = 0.0,
+    max = 5.0,
+    default = 1.0,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_DeflectionScale,
+}
+
+option ViewpointFixes.VehicleBallistics_Ricochets
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_Ricochets,
+}
+
+option ViewpointFixes.VehicleBallistics_RicochetScale
+{
+    type = double,
+    min = 0.0,
+    max = 5.0,
+    default = 1.0,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_RicochetScale,
+}
+
+option ViewpointFixes.VehicleBallistics_RicochetAngle
+{
+    type = integer,
+    min = 1,
+    max = 60,
+    default = 20,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_RicochetAngle,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Glass
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 20,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Glass,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Plaster
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 120,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Plaster,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Wood
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 180,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Wood,
+}
+
+option ViewpointFixes.VehicleBallistics_J_WoodSolid
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 900,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_WoodSolid,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Tree
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 2200,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Tree,
+}
+
+option ViewpointFixes.VehicleBallistics_J_MetalLight
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 150,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_MetalLight,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Metal
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 600,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Metal,
+}
+
+option ViewpointFixes.VehicleBallistics_J_MetalLarge
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 1000,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_MetalLarge,
+}
+
+option ViewpointFixes.VehicleBallistics_J_MetalSolid
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 6000,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_MetalSolid,
+}
+
+option ViewpointFixes.VehicleBallistics_J_GlassArmored
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 2500,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_GlassArmored,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Brick
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 3500,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Brick,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Cinderblock
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 3000,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Cinderblock,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Stone
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 20000,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Stone,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Plastic
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 60,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Plastic,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Fabric
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 20,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Fabric,
+}
+
+option ViewpointFixes.VehicleBallistics_J_Ceramic
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 200,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_Ceramic,
+}
+
+option ViewpointFixes.VehicleBallistics_J_VehicleBody
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 250,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_VehicleBallistics_J_VehicleBody,
+}

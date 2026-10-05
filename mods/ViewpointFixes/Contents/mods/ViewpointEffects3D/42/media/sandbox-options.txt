@@ -1,0 +1,135 @@
+VERSION = 1,
+
+option ViewpointFixes.Effects3D_Control
+{
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_Control,
+    valueTranslation = ViewpointFixes_Control,
+}
+
+option ViewpointFixes.Effects3D_Tracers
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_Tracers,
+}
+
+option ViewpointFixes.Effects3D_TracerWidth
+{
+    type = double,
+    min = 0.3,
+    max = 3.0,
+    default = 1.1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_TracerWidth,
+}
+
+option ViewpointFixes.Effects3D_TracerPath
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_TracerPath,
+}
+
+option ViewpointFixes.Effects3D_Flash
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_Flash,
+}
+
+option ViewpointFixes.Effects3D_FlashSize
+{
+    type = double,
+    min = 0.3,
+    max = 2.0,
+    default = 1.25,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_FlashSize,
+}
+
+option ViewpointFixes.Effects3D_Light
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_Light,
+}
+
+option ViewpointFixes.Effects3D_LightStrength
+{
+    type = double,
+    min = 0.2,
+    max = 2.0,
+    default = 1.1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_LightStrength,
+}
+
+option ViewpointFixes.Effects3D_Smoke
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_Smoke,
+}
+
+option ViewpointFixes.Effects3D_SmokeAmount
+{
+    type = double,
+    min = 0.0,
+    max = 2.0,
+    default = 0.5,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_SmokeAmount,
+}
+
+option ViewpointFixes.Effects3D_SmokeFP
+{
+    type = double,
+    min = 0.5,
+    max = 3.0,
+    default = 0.8,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_SmokeFP,
+}
+
+option ViewpointFixes.Effects3D_Impacts
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_Impacts,
+}
+
+option ViewpointFixes.Effects3D_Holes
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_Holes,
+}
+
+option ViewpointFixes.Effects3D_HoleTime
+{
+    type = double,
+    min = 0.1,
+    max = 5.0,
+    default = 5.0,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_HoleTime,
+}
+
+option ViewpointFixes.Effects3D_Fireflies
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_Effects3D_Fireflies,
+}

@@ -1,0 +1,11 @@
+name=Project Viewpoint - Open All Containers Fix
+id=ViewpointOpenContainers
+description=Shows opened containers of Open All Containers in Project Viewpoint's 3D view (they were invisible).
+author=Very Far Away
+modversion=1.0
+versionMin=42.21
+require=\Viewpoint
+loadModAfter=Viewpoint,OpenAllContainers
+javaJarFile=media/java/client/ViewpointOpenContainers.jar
+javaPkgName=vpoac
+ZBVersionMin=2.0.0

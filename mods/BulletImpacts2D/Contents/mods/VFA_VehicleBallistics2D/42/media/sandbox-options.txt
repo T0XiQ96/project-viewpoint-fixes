@@ -1,0 +1,475 @@
+VERSION = 1,
+
+option VehicleBallistics2D.Enabled
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_Enabled,
+}
+
+option VehicleBallistics2D.In2D
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_In2D,
+}
+
+option VehicleBallistics2D.HitInfo
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_HitInfo,
+}
+
+option VehicleBallistics2D.DamageScale
+{
+    type = double,
+    min = 0.1,
+    max = 5.0,
+    default = 1.0,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_DamageScale,
+}
+
+option VehicleBallistics2D.WindshieldShots
+{
+    type = integer,
+    min = 1,
+    max = 60,
+    default = 15,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_WindshieldShots,
+}
+
+option VehicleBallistics2D.SideWindowShatter
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 90,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_SideWindowShatter,
+}
+
+option VehicleBallistics2D.LightBreak
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 100,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_LightBreak,
+}
+
+option VehicleBallistics2D.TireShotsStrong
+{
+    type = integer,
+    min = 1,
+    max = 10,
+    default = 1,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_TireShotsStrong,
+}
+
+option VehicleBallistics2D.TireShotsMedium
+{
+    type = integer,
+    min = 1,
+    max = 10,
+    default = 2,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_TireShotsMedium,
+}
+
+option VehicleBallistics2D.TireShotsWeak
+{
+    type = integer,
+    min = 1,
+    max = 10,
+    default = 3,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_TireShotsWeak,
+}
+
+option VehicleBallistics2D.TireMode
+{
+    type = enum,
+    numValues = 2,
+    default = 1,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_TireMode,
+    valueTranslation = VehicleBallistics2D_TireMode,
+}
+
+option VehicleBallistics2D.TireLeakSeconds
+{
+    type = integer,
+    min = 1,
+    max = 600,
+    default = 30,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_TireLeakSeconds,
+}
+
+option VehicleBallistics2D.RunFlat
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_RunFlat,
+}
+
+option VehicleBallistics2D.BodyDamage
+{
+    type = double,
+    min = 0.0,
+    max = 25.0,
+    default = 3.0,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_BodyDamage,
+}
+
+option VehicleBallistics2D.EngineDamage
+{
+    type = double,
+    min = 0.0,
+    max = 25.0,
+    default = 2.0,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_EngineDamage,
+}
+
+option VehicleBallistics2D.FuelLeak
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_FuelLeak,
+}
+
+option VehicleBallistics2D.Occupants
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_Occupants,
+}
+
+option VehicleBallistics2D.ArmorWear
+{
+    type = double,
+    min = 0.0,
+    max = 10.0,
+    default = 1.0,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_ArmorWear,
+}
+
+option VehicleBallistics2D.DriveBy
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_DriveBy,
+}
+
+option VehicleBallistics2D.DriverCanShoot
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_DriverCanShoot,
+}
+
+option VehicleBallistics2D.DriveBySpread
+{
+    type = double,
+    min = 0.1,
+    max = 5.0,
+    default = 1.5,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_DriveBySpread,
+}
+
+option VehicleBallistics2D.DriverSpread
+{
+    type = double,
+    min = 1.0,
+    max = 5.0,
+    default = 2.0,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_DriverSpread,
+}
+
+option VehicleBallistics2D.OpenableWindows
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_OpenableWindows,
+}
+
+option VehicleBallistics2D.Penetration
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_Penetration,
+}
+
+option VehicleBallistics2D.PenetrationZombies
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_PenetrationZombies,
+}
+
+option VehicleBallistics2D.PenetrationPlayers
+{
+    type = boolean,
+    default = false,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_PenetrationPlayers,
+}
+
+option VehicleBallistics2D.PenetrationScale
+{
+    type = double,
+    min = 0.1,
+    max = 10.0,
+    default = 1.0,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_PenetrationScale,
+}
+
+option VehicleBallistics2D.MaxPenetrations
+{
+    type = integer,
+    min = 0,
+    max = 10,
+    default = 3,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_MaxPenetrations,
+}
+
+option VehicleBallistics2D.EnergyLoss
+{
+    type = integer,
+    min = 0,
+    max = 90,
+    default = 25,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_EnergyLoss,
+}
+
+option VehicleBallistics2D.DeflectionScale
+{
+    type = double,
+    min = 0.0,
+    max = 5.0,
+    default = 1.0,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_DeflectionScale,
+}
+
+option VehicleBallistics2D.Ricochets
+{
+    type = boolean,
+    default = true,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_Ricochets,
+}
+
+option VehicleBallistics2D.RicochetScale
+{
+    type = double,
+    min = 0.0,
+    max = 5.0,
+    default = 1.0,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_RicochetScale,
+}
+
+option VehicleBallistics2D.RicochetAngle
+{
+    type = integer,
+    min = 1,
+    max = 60,
+    default = 20,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_RicochetAngle,
+}
+
+option VehicleBallistics2D.J_Glass
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 20,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Glass,
+}
+
+option VehicleBallistics2D.J_Plaster
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 120,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Plaster,
+}
+
+option VehicleBallistics2D.J_Wood
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 180,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Wood,
+}
+
+option VehicleBallistics2D.J_WoodSolid
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 900,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_WoodSolid,
+}
+
+option VehicleBallistics2D.J_Tree
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 2200,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Tree,
+}
+
+option VehicleBallistics2D.J_MetalLight
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 150,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_MetalLight,
+}
+
+option VehicleBallistics2D.J_Metal
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 600,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Metal,
+}
+
+option VehicleBallistics2D.J_MetalLarge
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 1000,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_MetalLarge,
+}
+
+option VehicleBallistics2D.J_MetalSolid
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 6000,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_MetalSolid,
+}
+
+option VehicleBallistics2D.J_GlassArmored
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 2500,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_GlassArmored,
+}
+
+option VehicleBallistics2D.J_Brick
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 3500,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Brick,
+}
+
+option VehicleBallistics2D.J_Cinderblock
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 3000,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Cinderblock,
+}
+
+option VehicleBallistics2D.J_Stone
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 20000,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Stone,
+}
+
+option VehicleBallistics2D.J_Plastic
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 60,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Plastic,
+}
+
+option VehicleBallistics2D.J_Fabric
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 20,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Fabric,
+}
+
+option VehicleBallistics2D.J_Ceramic
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 200,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_Ceramic,
+}
+
+option VehicleBallistics2D.J_VehicleBody
+{
+    type = integer,
+    min = 0,
+    max = 50000,
+    default = 250,
+    page = VehicleBallistics2D,
+    translation = VehicleBallistics2D_J_VehicleBody,
+}

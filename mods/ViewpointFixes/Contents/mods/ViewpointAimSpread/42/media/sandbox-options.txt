@@ -1,0 +1,57 @@
+VERSION = 1,
+
+option ViewpointFixes.AimSpread_Control
+{
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_AimSpread_Control,
+    valueTranslation = ViewpointFixes_Control,
+}
+
+option ViewpointFixes.AimSpread_Spread
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_AimSpread_Spread,
+}
+
+option ViewpointFixes.AimSpread_Scale
+{
+    type = double,
+    min = 0.25,
+    max = 2.0,
+    default = 1.5,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_AimSpread_Scale,
+}
+
+option ViewpointFixes.AimSpread_Cover
+{
+    type = boolean,
+    default = true,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_AimSpread_Cover,
+}
+
+option ViewpointFixes.AimSpread_BushChance
+{
+    type = integer,
+    min = 0,
+    max = 50,
+    default = 10,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_AimSpread_BushChance,
+}
+
+option ViewpointFixes.AimSpread_DeflectDeg
+{
+    type = integer,
+    min = 0,
+    max = 30,
+    default = 10,
+    page = ViewpointFixes,
+    translation = ViewpointFixes_AimSpread_DeflectDeg,
+}

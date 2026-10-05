@@ -1,0 +1,20 @@
+{
+    "UI_VVB_Title": "Vehicle Ballistics",
+    "UI_VVB_ShowInfo": "Show what I hit on vehicles",
+    "UI_VVB_ShowInfo_tooltip": "A short text over your character after a hit (only if the server allows it).",
+    "UI_VVB_Body": "Body",
+    "UI_VVB_Occupant": "someone inside was hit",
+    "UI_VVB_State_hole": "bullet hole",
+    "UI_VVB_State_shattered": "shattered",
+    "UI_VVB_State_scrape": "scrape, holds",
+    "UI_VVB_State_flat": "flat",
+    "UI_VVB_State_holed": "holed",
+    "UI_VVB_State_leaking": "losing air",
+    "UI_VVB_State_fuel": "leaking fuel",
+    "UI_VVB_State_runflat": "run-flat, holds",
+    "UI_VVB_State_broken": "broken",
+    "UI_VVB_State_damaged": "hit",
+    "UI_VVB_State_armor": "armour holds",
+    "UI_VVB_State_open": "through the open window",
+    "UI_VVB_DriveByNeedsVTB": "Shooting from vehicles needs Viewpoint True Ballistics"
+}

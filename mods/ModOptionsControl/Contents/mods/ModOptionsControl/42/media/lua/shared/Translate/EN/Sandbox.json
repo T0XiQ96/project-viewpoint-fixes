@@ -1,0 +1,19 @@
+{
+    "Sandbox_ModOptionsControl": "Mod Options Control",
+    "Sandbox_ModOptionsControl_Enabled": "Enable Mod Options Control",
+    "Sandbox_ModOptionsControl_Enabled_tooltip": "Off: every player sets all mod options freely, all rules are ignored.",
+    "Sandbox_ModOptionsControl_DefaultPolicy": "Default rule",
+    "Sandbox_ModOptionsControl_DefaultPolicy_tooltip": "For options without their own rule. Free (default): players may change everything until an admin locks something. Locked: everything uses the admin's values unless freed.",
+    "Sandbox_ModOptionsControl_DefaultPolicy_option1": "Free",
+    "Sandbox_ModOptionsControl_DefaultPolicy_option2": "Locked",
+    "Sandbox_ModOptionsControl_HideLocked": "Hide locked options",
+    "Sandbox_ModOptionsControl_HideLocked_tooltip": "On: locked options disappear from Options > Mods, so players only see what they may change (they can still show them greyed out on the Mod Options Control page). Off: they stay visible, greyed out and marked [Server].",
+    "Sandbox_ModOptionsControl_AdminsBypass": "Admins keep their own options",
+    "Sandbox_ModOptionsControl_AdminsBypass_tooltip": "On: players who may change the sandbox are not locked, so they can set their values and copy them for everyone in the admin window. Off: admins get the same values as everyone (also in single player).",
+    "Sandbox_ModOptionsControl_KeybindsLockable": "Key bindings can be locked",
+    "Sandbox_ModOptionsControl_KeybindsLockable_tooltip": "Off (recommended): key bindings in mod options always stay the player's choice.",
+    "Sandbox_ModOptionsControl_LockedList": "Always locked",
+    "Sandbox_ModOptionsControl_LockedList_tooltip": "Optional list separated by ; - a page ID locks all options of that mod, PageID.optionID one option. Page IDs are shown in brackets in the admin window. Rules set in the admin window win.",
+    "Sandbox_ModOptionsControl_FreeList": "Always free",
+    "Sandbox_ModOptionsControl_FreeList_tooltip": "Like “Always locked”, for exceptions when the default rule is Locked."
+}

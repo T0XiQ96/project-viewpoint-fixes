@@ -1,0 +1,11 @@
+name=Vehicle Ballistics 2D
+id=VFA_VehicleBallistics2D
+description=Bullet Impacts 2D add-on: shots hit the real part of a vehicle in the normal view - windshields keep holes until they cave in, side windows shatter, tyres go flat after 1-3 hits by calibre (or lose air slowly), lights break, doors, hood, engine and tank take damage, armour holds, bullets can hit people inside. The shooter sees what was hit. Works with modded vehicles. Options in Sandbox > Vehicle Ballistics 2D. Needed on server and clients (ZombieBuddy on the server). If Project Viewpoint - Fixes (Vehicle Ballistics) is also enabled, that one takes over and this one stays idle.
+author=Very Far Away
+modversion=1.0
+versionMin=42.21
+require=\ZombieBuddy
+loadModAfter=VFA_BulletImpacts2D,ViewpointTrueBallistics
+javaJarFile=media/java/VehicleBallistics2D.jar
+javaPkgName=vbi2d
+ZBVersionMin=2.3.0

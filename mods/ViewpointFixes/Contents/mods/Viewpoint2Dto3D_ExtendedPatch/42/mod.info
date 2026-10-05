@@ -1,0 +1,10 @@
+name=Viewpoint 2D to 3D - Extended Patch
+id=Viewpoint2Dto3D_ExtendedPatch
+author=majestiKTox
+modversion=0.1
+versionMin=42.21
+versionMax=42.21
+require=\Viewpoint,\Viewpoint2Dto3D
+loadModAfter=\Viewpoint2Dto3D
+poster=poster.png
+description=Extension for Viewpoint 2D to 3D. Makes mods that use IsoUtils.XToScreen / YToScreen (LeaveMessageNote, ShotgunTrajectory, HomeInventory, ColdBreath, HideAnywhere) follow the Project Viewpoint 3D camera. Back to normal 2D maths when the 3D view is off.

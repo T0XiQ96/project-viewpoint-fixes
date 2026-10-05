@@ -1,0 +1,10 @@
+{
+    "Sandbox_ViewpointFixes": "Viewpoint Fixes",
+    "Sandbox_ViewpointFixes_ZoomHold_Control": "Hold to Zoom: Who sets the options",
+    "Sandbox_ViewpointFixes_ZoomHold_Control_tooltip": "Players choose: everyone uses Options > Mods, the values below are ignored. Server values: everyone uses the values below; the entries in Options > Mods are greyed out or hidden. Key bindings always stay the player's choice.",
+    "Sandbox_ViewpointFixes_Control_option1": "Players choose",
+    "Sandbox_ViewpointFixes_Control_option2": "Server values (greyed out)",
+    "Sandbox_ViewpointFixes_Control_option3": "Server values (hidden)",
+    "Sandbox_ViewpointFixes_ZoomHold_Step": "Hold to Zoom: Zoom step per wheel notch",
+    "Sandbox_ViewpointFixes_ZoomHold_Step_tooltip": "Field-of-view change per notch. The zoom key itself always stays the player's choice."
+}

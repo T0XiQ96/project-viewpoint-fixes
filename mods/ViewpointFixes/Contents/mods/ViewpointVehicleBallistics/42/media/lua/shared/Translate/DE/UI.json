@@ -1,0 +1,20 @@
+{
+    "UI_VVB_Title": "Fahrzeug-Ballistik",
+    "UI_VVB_ShowInfo": "Anzeigen, was ich am Fahrzeug getroffen habe",
+    "UI_VVB_ShowInfo_tooltip": "Ein kurzer Text über deinem Charakter nach einem Treffer (nur wenn der Server es erlaubt).",
+    "UI_VVB_Body": "Karosserie",
+    "UI_VVB_Occupant": "Insasse getroffen",
+    "UI_VVB_State_hole": "Einschussloch",
+    "UI_VVB_State_shattered": "zersplittert",
+    "UI_VVB_State_scrape": "Schramme, hält",
+    "UI_VVB_State_flat": "platt",
+    "UI_VVB_State_holed": "Loch",
+    "UI_VVB_State_leaking": "verliert Luft",
+    "UI_VVB_State_fuel": "verliert Sprit",
+    "UI_VVB_State_runflat": "Notlauf, hält",
+    "UI_VVB_State_broken": "kaputt",
+    "UI_VVB_State_damaged": "getroffen",
+    "UI_VVB_State_armor": "Panzerung hält",
+    "UI_VVB_State_open": "durchs offene Fenster",
+    "UI_VVB_DriveByNeedsVTB": "Aus Fahrzeugen schießen braucht Viewpoint True Ballistics"
+}

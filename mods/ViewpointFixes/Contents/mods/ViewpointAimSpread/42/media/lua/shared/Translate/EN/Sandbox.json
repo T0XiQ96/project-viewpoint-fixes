@@ -1,0 +1,18 @@
+{
+    "Sandbox_ViewpointFixes": "Viewpoint Fixes",
+    "Sandbox_ViewpointFixes_AimSpread_Control": "Aim Spread: Who sets the options",
+    "Sandbox_ViewpointFixes_AimSpread_Control_tooltip": "Players choose: everyone uses Options > Mods, the values below are ignored. Server values: everyone uses the values below; the entries in Options > Mods are greyed out or hidden. Key bindings always stay the player's choice.",
+    "Sandbox_ViewpointFixes_Control_option1": "Players choose",
+    "Sandbox_ViewpointFixes_Control_option2": "Server values (greyed out)",
+    "Sandbox_ViewpointFixes_Control_option3": "Server values (hidden)",
+    "Sandbox_ViewpointFixes_AimSpread_Spread": "Aim Spread: Spread inside the game's aiming circle",
+    "Sandbox_ViewpointFixes_AimSpread_Spread_tooltip": "Every shot leaves at a random point inside the game's aiming circle. Only with Firearms Use Damage Chance = Disabled.",
+    "Sandbox_ViewpointFixes_AimSpread_Scale": "Aim Spread: Circle size factor",
+    "Sandbox_ViewpointFixes_AimSpread_Scale_tooltip": "1 = exactly the brackets, 1.5 = default.",
+    "Sandbox_ViewpointFixes_AimSpread_Cover": "Aim Spread: Bushes deflect bullets",
+    "Sandbox_ViewpointFixes_AimSpread_Cover_tooltip": "Bushes do not stop bullets but can deflect them.",
+    "Sandbox_ViewpointFixes_AimSpread_BushChance": "Aim Spread: Deflection chance per bush (%)",
+    "Sandbox_ViewpointFixes_AimSpread_BushChance_tooltip": "Chance that a bullet flying through a bush is deflected.",
+    "Sandbox_ViewpointFixes_AimSpread_DeflectDeg": "Aim Spread: Deflection angle (degrees)",
+    "Sandbox_ViewpointFixes_AimSpread_DeflectDeg_tooltip": "How far a deflected bullet can turn away, sideways and up/down."
+}

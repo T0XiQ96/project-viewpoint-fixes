@@ -1,0 +1,8 @@
+name=Project Viewpoint - Crosshair Use
+id=ViewpointCrosshairUse
+description=Crosshair view: left click switches the light switch you look at, exactly like a left click in the normal view (no more "standing just right"); a short right click opens the normal context menu for exactly that object.
+author=Very Far Away
+modversion=1.1
+versionMin=42.21
+require=\Viewpoint,\ViewpointInteractList,\ViewpointMouseRightClick
+loadModAfter=Viewpoint,ViewpointInteractList,ViewpointMouseRightClick

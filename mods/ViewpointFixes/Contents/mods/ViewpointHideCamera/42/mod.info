@@ -1,0 +1,11 @@
+name=Project Viewpoint - Hide Camera (Under Bed)
+id=ViewpointHideCamera
+description=Lowers Viewpoint's camera to the floor while you hide under a bed with Hide Anywhere.
+author=Very Far Away
+modversion=1.0
+versionMin=42.21
+require=\Viewpoint
+loadModAfter=Viewpoint,HideAnywhere
+javaJarFile=media/java/client/ViewpointHideCamera.jar
+javaPkgName=vphide
+ZBVersionMin=2.0.0

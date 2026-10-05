@@ -1,0 +1,8 @@
+name=Project Viewpoint - Hold to Zoom
+id=ViewpointZoomHold
+description=Needs Project Viewpoint QOL. Zoom only while holding a key (default Left Shift) and turning the mouse wheel, in bigger steps; releasing the key snaps back to the normal view. The plain mouse wheel no longer zooms. Key and step size in Options > Mods > Viewpoint Hold to Zoom.
+author=Very Far Away
+modversion=1.0
+versionMin=42.21
+require=\Viewpoint,\ProjectViewpointQOL
+loadModAfter=Viewpoint,ProjectViewpointQOL

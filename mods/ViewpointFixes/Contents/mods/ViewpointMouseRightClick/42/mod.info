@@ -1,0 +1,11 @@
+name=Project Viewpoint - Right Click in Mouse Mode
+id=ViewpointMouseRightClick
+description=In Viewpoint's mouse mode (free cursor) the right mouse button opens the context menu instead of starting the aim stance; also reports the view state to Lua. Crosshair view is unchanged.
+author=Very Far Away
+modversion=1.2
+versionMin=42.21
+require=\Viewpoint
+loadModAfter=Viewpoint
+javaJarFile=media/java/client/ViewpointMouseRightClick.jar
+javaPkgName=vpmenu
+ZBVersionMin=2.0.0

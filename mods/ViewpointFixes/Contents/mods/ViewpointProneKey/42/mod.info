@@ -1,0 +1,8 @@
+name=Project Viewpoint - Prone on X
+id=ViewpointProneKey
+description=Lethal Stealth prone with the X key in Viewpoint's 3D view (X again = get up); the prone entry is removed from the right-click menu.
+author=Very Far Away
+modversion=1.0
+versionMin=42.21
+require=\Viewpoint
+loadModAfter=Viewpoint,RET_LethalStealth

@@ -1,0 +1,6 @@
+name=Mod Options Control (Server)
+id=ModOptionsControl
+description=Lets server admins set Mod Options (Options > Mods) for everyone and choose which ones players may still change. Locked options can be greyed out or hidden. Default: everything stays free until an admin locks something. Works with every mod that uses the game's own Mod Options (PZAPI.ModOptions).
+author=Very Far Away
+modversion=1.0
+versionMin=42.13

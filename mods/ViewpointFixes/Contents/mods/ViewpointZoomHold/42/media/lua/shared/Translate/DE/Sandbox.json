@@ -1,0 +1,10 @@
+{
+    "Sandbox_ViewpointFixes": "Viewpoint Fixes",
+    "Sandbox_ViewpointFixes_ZoomHold_Control": "Zoom halten: Wer stellt die Optionen ein",
+    "Sandbox_ViewpointFixes_ZoomHold_Control_tooltip": "Spieler wählen selbst: jeder nutzt Optionen > Mods, die Werte darunter gelten nicht. Server-Werte: alle nutzen die Werte darunter; die Einträge unter Optionen > Mods sind ausgegraut oder ausgeblendet. Tastenbelegungen stellt immer jeder selbst ein.",
+    "Sandbox_ViewpointFixes_Control_option1": "Spieler wählen selbst",
+    "Sandbox_ViewpointFixes_Control_option2": "Server-Werte (ausgegraut)",
+    "Sandbox_ViewpointFixes_Control_option3": "Server-Werte (ausgeblendet)",
+    "Sandbox_ViewpointFixes_ZoomHold_Step": "Zoom halten: Zoomschritt pro Mausrad-Raste",
+    "Sandbox_ViewpointFixes_ZoomHold_Step_tooltip": "Änderung des Sichtfelds pro Raste. Die Zoom-Taste stellt jeder Spieler selbst ein."
+}

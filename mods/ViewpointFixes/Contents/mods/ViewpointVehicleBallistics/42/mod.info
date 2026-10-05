@@ -1,0 +1,11 @@
+name=Project Viewpoint - Vehicle Ballistics & Penetration
+id=ViewpointVehicleBallistics
+description=Shots hit the real part of a vehicle: windshields keep their bullet holes until they cave in, side windows shatter, tyres go flat after 1-3 hits (by calibre) or lose air slowly, lights break, doors, hood, engine and fuel tank take damage, armour (KI5 and other mods) holds with a scrape, bullets through glass and doors can hit people inside. The shooter sees what was hit. Works with modded vehicles (their physics shapes, wheels and part names). With Viewpoint True Ballistics also penetration through walls, doors, furniture, trees and vehicles by material and energy, and ricochets. Everything in Sandbox > Viewpoint Fixes. Needed on server and clients (ZombieBuddy on the server).
+author=Very Far Away
+modversion=1.0
+versionMin=42.21
+require=\ZombieBuddy
+loadModAfter=ViewpointTrueBallistics,ViewpointEffects3D,VFA_BulletImpacts2D,VFA_VehicleBallistics2D
+javaJarFile=media/java/ViewpointVehicleBallistics.jar
+javaPkgName=vpveh
+ZBVersionMin=2.3.0

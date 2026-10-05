@@ -1,0 +1,11 @@
+name=Project Viewpoint - Interaction List Cleanup
+id=ViewpointInteractList
+description=Keeps entries about yourself (Lifestyle: Wellness/Yoga, dancing, sharing knowledge, cleaning, admin debug menu), Container Options, furniture display, Door Bar and auto-close out of Viewpoint's crosshair interaction list (the normal right-click menu keeps them), puts everything about hiding on top and silences hint texts like "Missing a Hammer".
+author=Very Far Away
+modversion=1.2
+versionMin=42.21
+require=\Viewpoint
+loadModAfter=Viewpoint,Lifestyle,OpenAllContainers,P4Decoholic,HideAnywhere,DoorBar,zReFixFloor42
+javaJarFile=media/java/client/ViewpointInteractList.jar
+javaPkgName=vplist
+ZBVersionMin=2.0.0

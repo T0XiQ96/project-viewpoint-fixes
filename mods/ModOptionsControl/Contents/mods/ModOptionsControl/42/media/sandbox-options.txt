@@ -1,0 +1,59 @@
+VERSION = 1,
+
+option ModOptionsControl.Enabled
+{
+    type = boolean,
+    default = true,
+    page = ModOptionsControl,
+    translation = ModOptionsControl_Enabled,
+}
+
+option ModOptionsControl.DefaultPolicy
+{
+    type = enum,
+    numValues = 2,
+    default = 1,
+    page = ModOptionsControl,
+    translation = ModOptionsControl_DefaultPolicy,
+    valueTranslation = ModOptionsControl_DefaultPolicy,
+}
+
+option ModOptionsControl.HideLocked
+{
+    type = boolean,
+    default = true,
+    page = ModOptionsControl,
+    translation = ModOptionsControl_HideLocked,
+}
+
+option ModOptionsControl.AdminsBypass
+{
+    type = boolean,
+    default = true,
+    page = ModOptionsControl,
+    translation = ModOptionsControl_AdminsBypass,
+}
+
+option ModOptionsControl.KeybindsLockable
+{
+    type = boolean,
+    default = false,
+    page = ModOptionsControl,
+    translation = ModOptionsControl_KeybindsLockable,
+}
+
+option ModOptionsControl.LockedList
+{
+    type = string,
+    default = ,
+    page = ModOptionsControl,
+    translation = ModOptionsControl_LockedList,
+}
+
+option ModOptionsControl.FreeList
+{
+    type = string,
+    default = ,
+    page = ModOptionsControl,
+    translation = ModOptionsControl_FreeList,
+}

@@ -1,0 +1,11 @@
+name=Project Viewpoint - Over the Shoulder in 3D
+id=ViewpointShoulderLook3D
+description=Over the Shoulder in Viewpoint's 3D view: hold the look key (default Caps Lock, Options > Key Bindings) and move the mouse to look around while you keep walking where you were going; head and upper body turn and your view widens like Over the Shoulder in 2D. Releasing the key turns the camera back. The middle mouse button stays free for Viewpoint. 2D view unchanged.
+author=Very Far Away
+modversion=2.0
+versionMin=42.21
+require=\Viewpoint,\Viewpoint2Dto3D,\OverTheShoulder
+loadModAfter=Viewpoint,Viewpoint2Dto3D,OverTheShoulder
+javaJarFile=media/java/client/ViewpointShoulderLook3D.jar
+javaPkgName=vplook
+ZBVersionMin=2.0.0
