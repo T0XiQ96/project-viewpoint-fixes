@@ -2,6 +2,8 @@ version=1
 id=3812510377
 title=Project Viewpoint - Fixes
 description=[h1]Project Viewpoint - Fixes[/h1]
+description=[b]Full documentation (EN/DE), every option, source:[/b] [url=https://github.com/T0XiQ96/project-viewpoint-fixes]https://github.com/T0XiQ96/project-viewpoint-fixes[/url] - Vehicle Ballistics: [url=https://github.com/T0XiQ96/project-viewpoint-fixes/blob/main/docs/en/VehicleBallistics.md]details[/url]
+description=
 description=Fifteen small, independent mods for [b]Project Viewpoint[/b] (3D view), Build 42.21. Enable only the ones you want. All need ZombieBuddy and go after Viewpoint. Mods 1-14 are client-side (12 changes where your own shots go); mod 15 changes gameplay and is needed on the server too. Java source in each mod's source/ folder. Unofficial.
 description=
 description=[h2]Markers and labels[/h2]

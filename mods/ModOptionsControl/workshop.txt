@@ -1,6 +1,8 @@
 version=1
 title=Mod Options Control (Server)
 description=[h1]Mod Options Control[/h1]
+description=[b]Full documentation (EN/DE) and source:[/b] [url=https://github.com/T0XiQ96/project-viewpoint-fixes/blob/main/docs/en/ModOptionsControl.md]GitHub[/url]
+description=
 description=Server admins decide which [b]Mod Options[/b] (Options > Mods) players may change - and set the values for everyone. Build 42. Works with every mod that uses the game's own Mod Options (PZAPI.ModOptions); no other mod needs to be changed.
 description=
 description=[h2]How it works[/h2]

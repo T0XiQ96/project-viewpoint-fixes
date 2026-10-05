@@ -2,6 +2,8 @@ version=1
 id=3813696499
 title=Bullet Impacts 2D
 description=[h1]Bullet Impacts 2D[/h1]
+description=[b]Full documentation (EN/DE) and source:[/b] [url=https://github.com/T0XiQ96/project-viewpoint-fixes/blob/main/docs/en/BulletImpacts2D.md]GitHub[/url] - Vehicle Ballistics: [url=https://github.com/T0XiQ96/project-viewpoint-fixes/blob/main/docs/en/VehicleBallistics.md]details[/url]
+description=
 description=Bullet holes, sparks, dust, splinters and ricochets in the normal isometric view of Project Zomboid (Build 42.21).
 description=
 description=[list]
